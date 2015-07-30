@@ -10,8 +10,10 @@
 #import "Mantle.h"
 
 static NSString *const kArticlesListPath = @"/svc/search/v2/articlesearch.json";
-#error - API key is missing
-static NSString *const kApiKey = @"replace this with an API key";
+//#error - API key is missing
+static NSString *const kApiKey = @"http://api.nytimes.com/svc/search/v2/articlesearch";
+
+//@"replace this with an API key";
 
 @implementation APIManager
 
